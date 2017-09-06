@@ -1,0 +1,569 @@
+.topbanner{
+	height: 30px;
+	background-color:#F7F7F7;
+}
+
+.topbanner ul{
+	width: 290px;
+	float: left;
+}
+
+.topbanner li{
+	display: inline-block;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 14px;
+}
+
+.topbanner p{
+	display: inline-block;
+	float: right;
+	height: 30px;
+	line-height: 30px;
+}
+
+.banner {
+	height: 70px;
+	/* background-color:yellow; */
+	line-height: 70px;
+}
+
+.banner .left img{
+	float: left;
+	margin-top: 18px;
+	width: 255px;
+	height: 38px;
+}
+
+.banner ul{
+	display: inline-block;
+	float: right;
+}
+
+.banner ul li{
+	display: inline-block;
+	float: right;
+	margin-left: 20px;
+}
+
+.banner ul .line{
+	width: 1px;
+	height: 15px;
+	background-color:#ccc;
+	margin-top: 28px;
+}
+
+.nav{
+	height: 46px;
+	/* background-color:red; */
+	line-height: 46px;
+}
+
+.nav ul{
+	float: left;
+	margin-left: 260px;
+}
+
+.nav ul li{
+	float: left;
+	display: inline-block;
+	margin-right: 34px;
+}
+
+.nav .search{
+	margin-top: 5px;
+	float: right;
+	width: 210px;
+	height: 36px;
+	border-radius: 18px;
+	border: 1px #ccc solid;
+	position: relative;
+	line-height: 36px;
+}
+
+.nav .search input{
+	position: absolute;
+	width: 130px;
+	height: 24px;
+	line-height: 24px;
+	border-right: 1px solid #ccc;
+	top: 5px;
+	left:18px;
+	background-color: #F0F0F0;
+}
+
+.nav .search span{
+	position: absolute;
+	left: 165px;
+}
+
+.nav .search i{
+	font-size: 20px;
+}
+
+.bg{
+	position: absolute;
+	width: 100%;
+	height: 320px;
+	background-color: #FF6A6A;
+}
+
+.content{
+	height: 430px;
+	/* background-color:yellow; */
+	position: relative;
+}
+
+.content .left{
+	position: absolute;
+	left: 0px;
+	top: -40px;
+	width: 230px;
+	height: 470px;
+	background-color:#662B2B;
+	border-radius: 10px;
+	overflow: hidden;
+	color: #fff;
+}
+.content .left p{
+	width: 230px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	background-color:green;
+	color: #fff;
+	font-size: 17px;
+}
+.content .left ul{
+	margin-top: 15px;
+}
+
+.content .left li{
+	width: 230px;
+	height: 40px;
+	line-height: 40px;
+}
+.content .left li a{
+	color: #fff;
+	display: inline-block;
+	float: left;
+	margin-left: 35px;
+}
+.content .left li span{
+	width: 60px;
+	float: right;
+}
+.content .left li:hover{
+	background-color:rgba(255,255,255,.3);
+}
+
+.content .right-top{
+	position: absolute;
+	top: 0px;
+	left: 230px;
+	height:320px;
+	width: 960px;
+	background: url(../img/主题背景1.jpg) -230px 0 no-repeat;
+}
+
+.content .right-btm{
+	position: absolute;
+	top: 330px;
+	left: 230px;
+	height:100px;
+	width: 960px;
+	/* background-color:orange; */
+}
+
+.content .right-btm li{
+	display: inline-block;
+	float: left;
+	width: 230px;
+	height: 100px;
+	margin-left:10px; 
+	position: relative;
+	border-radius: 5px;
+	background-color:skyblue;
+}
+
+.content .right-btm li img{
+	position: absolute;
+	width: 54px;
+	height: 70px;
+	left: 16px;
+	top: 20px;
+}
+
+.content .right-btm li h3{
+	position: absolute;
+	top: 21px;
+	left: 83px;
+	font-size: 15px;
+}
+
+.content .right-btm li p{
+	position: absolute;
+	top: 50px;
+	left: 83px;
+	width: 120px;
+}
+
+.hot{
+	margin-top: 30px;
+	height: 315px;
+	/* background-color:pink; */
+}
+
+.hot .open{
+	float: left;
+	width: 690px;
+	height: 315px;
+	border-radius: 10px;
+	background-color: #fff;
+}
+.hot .open .top{
+	margin-left: 50px;
+	margin-top: 32px;
+	top: 32px;
+	left: 50px;
+	font-size: 18px;
+}
+.hot .open .left{
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+	width: 284px;
+	height: 234px;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color:#F0F0F0;
+	position: relative;
+}
+.hot .open .left img{
+	position: absolute;
+	top: 0px;
+	width: 284px;
+	height: 160px;
+}
+.hot .open .left h3,
+.hot .open .right h3
+{
+	display: inline-block;
+	position: absolute;
+	top: 180px;
+	left: 10px;
+	font-weight: bold;
+}
+.hot .open .left .one,
+.hot .open .right .one
+{
+	display: inline-block;
+	position: absolute;
+	top: 202px;
+	left: 10px;
+}
+.hot .open .left .two,
+.hot .open .right .two
+{
+	display: inline-block;
+	position: absolute;
+	top: 180px;
+	left: 190px;
+}
+.hot .open .left .thr,
+.hot .open .right .thr
+{
+	display: inline-block;
+	position: absolute;
+	top: 202px;
+	left: 190px;
+}
+.hot .open .right{
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 284px;
+	height: 234px;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color:#F0F0F0;
+	position: relative;
+}
+.hot .open .right img{
+	position: absolute;
+	top: 0px;
+	width: 284px;
+	height: 160px;
+}
+
+
+.hot .new{
+	float: left;
+	width: 490px;
+	height: 315px;
+	margin-left: 10px;
+	border-radius: 10px;
+	background-color: #fff;
+	position: relative;
+}
+.hot .new h2{
+	position: absolute;
+	left: 49px;
+	top: 31px;
+}
+.hot .new img{
+	position: absolute;
+	left: 49px;
+	top: 86px;
+	width: 122px;
+	height: 185px;
+}
+
+.hot .new p{
+	position: absolute;
+	left: 212px;
+	top: 25px;
+	color: green;
+	line-height: 23px;
+	height: 23px;
+	width: 65px;
+	font-size: 15px;
+	border-bottom: 2px solid green;
+}
+
+.hot .new ul{
+	position: absolute;
+	top: 60px;
+	left:208px;
+	
+	
+}
+
+.hot .new ul li{
+	height: 40px;
+	width: 206px;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+.hot .new span{
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color:green;
+}
+
+.hot .new ul li:first-child a{
+	color: green;
+}
+
+.hot .new ul li a{
+	margin-left: 5px;
+}
+
+.text{
+	height: 60px;
+	line-height: 60px;
+	position: relative;
+}
+
+.text h2{
+	position: absolute;
+	left: 0px;
+}
+
+.text p{
+	position: absolute;
+	left: 65px;
+}
+
+.pic{
+	height: 250px;
+	/* background-color:yellow; */
+	position:relative;
+}
+
+.pic .box1{
+	position: absolute;
+	width: 590px;
+	height: 120px;	
+	background: url(../img/web就业班.png) 0 0 no-repeat;
+}
+
+.pic .box1 a{
+	position: absolute;
+	top: 70px;
+	width: 590px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+}
+
+.pic .box2{
+	position: absolute;
+	left: 600px;
+	width: 290px;
+	height: 120px;	
+	background: url(../img/全栈工程师.png) 0 0 no-repeat;
+}
+
+.pic .box2 a{
+	position: absolute;
+	top: 70px;
+	width: 290px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+}
+
+.pic .box3{
+	position: absolute;
+	left: 900px;
+	width: 290px;
+	height: 120px;	
+	background: url(../img/安卓.png) 0 0 no-repeat;
+}
+
+.pic .box3 a{
+	position: absolute;
+	top: 70px;
+	width: 290px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+}
+
+.pic .box4{
+	position: absolute;
+	left: 0px;
+	top: 130px;
+	width: 290px;
+	height: 120px;	
+	background: url(../img/云数据.png) 0 0 no-repeat;
+}
+
+.pic .box4 a{
+	position: absolute;
+	top: 70px;
+	width: 290px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+}
+
+.pic .box5{
+	position: absolute;
+	left: 300px;
+	top: 130px;
+	width: 290px;
+	height: 120px;	
+	background: url(../img/python.png) 0 0 no-repeat;
+}
+
+.pic .box5 a{
+	position: absolute;
+	top: 70px;
+	width: 290px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+}
+
+.pic .box6{
+	position: absolute;
+	left: 600px;
+	top: 130px;
+	width: 590px;
+	height: 120px;	
+	background: url(../img/javaweb.png) 0 0 no-repeat;
+}
+
+.pic .box6 a{
+	position: absolute;
+	top: 70px;
+	width: 590px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+}
+
+.foot{
+	margin-top: 10px;
+	height: 180px;
+	background-color:#2C333F;
+	border-bottom: 1px solid #ccc;
+}
+
+.foot .cloud{
+	display: inline-block;
+	float: left;
+	height: 180px;
+	width: 420px;
+	/* background-color:yellow; */
+}
+.foot .cloud h2{
+	margin-top: 32px;
+	font-size: 20px;
+}
+.foot .cloud p{
+	margin-top: 15px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 15px;
+}
+.foot .attention{
+	display: inline-block;
+	float: left;
+	height: 180px;
+	width: 265px;
+	/* background-color:red; */
+	position: relative;
+}
+.foot .attention h2{
+	position: absolute;
+	top: 32px;
+	left:60px;
+	font-size: 20px;
+}
+.foot .attention .one{
+	position: absolute;
+	top: 70px;
+	left: 60px;
+	width: 48px;
+	height: 48px;
+	background: url(../img/新浪图标2.png) 0 0 no-repeat;
+}
+.foot .attention .two{
+	position: absolute;
+	top: 70px;
+	left: 130px;
+	width: 48px;
+	height: 48px;
+	background: url(../img/微信图标2.png) 0 0 no-repeat;
+}
+.foot .link{
+	display: inline-block;
+	float: left;
+	height: 180px;
+	width: 505px;
+	/* background-color:pink; */
+}
+
+.foot .link h2{
+	margin-top: 32px;
+	font-size: 20px;
+}
+.foot .link ul{
+	margin-top: 12px;
+}
+.foot .link li{
+	display: inline-block;
+	float: left;
+	margin-right: 40px;
+	line-height: 28px;
+	height: 28px;
+}
